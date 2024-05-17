@@ -1,0 +1,54 @@
+body {
+    font-family: 'Baloo', monospace;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-container {
+    position: relative;
+    text-align: center;
+    padding: 90px;
+}
+
+
+h1 {
+    color: #333;
+}
+
+p{
+    font-size: 15px;
+    word-wrap: break-word;
+    max-width: 9000px;
+    text-align: justify;
+    text-indent: 2em;
+}
+#countdown {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Kiểu dáng của logo */
+.logo {
+    width: 80px; /* Điều chỉnh kích thước theo ý muốn */
+    height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+    margin-bottom: 10px; /* Khoảng cách giữa logo và tiêu đề */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.digit {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}

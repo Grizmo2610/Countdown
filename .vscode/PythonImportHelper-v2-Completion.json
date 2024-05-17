@@ -1,0 +1,44 @@
+[
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ttk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "CountdownToNoonApp",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class CountdownToNoonApp:\n    def __init__(self, root):\n        self.root = root\n        self.root.title(\"Đồng hồ đếm ngược đến 12h trưa\")\n        self.var_thoi_gian = tk.StringVar()\n        self.var_thoi_gian.set(\"00:00:00\")\n        self.label_thoi_gian = ttk.Label(root, textvariable=self.var_thoi_gian, font=(\"Helvetica\", 48))\n        self.label_thoi_gian.pack(pady=20)\n        ttk.Button(root, text=\"Bắt đầu\", command=self.bat_dau_dem_nguoc).pack(pady=20)\n        ttk.Button(root, text=\"Dừng\", command=self.dung_dem_nguoc).pack(pady=10)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
